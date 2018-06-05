@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/power_value"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="100"
+        android:background="@drawable/bg"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="#0019A4"
+        android:textSize="33sp" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/state_display"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Not connected"
+        android:textSize="28sp"
+        android:textStyle="bold" >
+    </TextView>
+
+</LinearLayout>

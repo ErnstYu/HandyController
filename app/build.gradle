@@ -1,0 +1,24 @@
+apply plugin: 'com.android.application'
+android {
+    compileSdkVersion 8
+    buildToolsVersion "27.0.3"
+
+    defaultConfig {
+        applicationId "com.eLongboard.HandyController"
+        minSdkVersion 7
+        targetSdkVersion 7
+    }
+
+    buildTypes {
+        release {
+            proguardFiles getDefaultProguardFile('proguard-android.txt')
+        }
+        debug {
+            debuggable false
+            minifyEnabled true
+        }
+    }
+}
+
+dependencies {
+}
